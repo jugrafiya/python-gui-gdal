@@ -1,7 +1,3 @@
-Certainly, below is the `README.md` file that includes both the code explanation and instructions for installing required dependencies.
-
----
-
 # CSV File Reader to Shapefile and Rasters
 
 This python application takes the first csv (sensors) and creates shapefiles and rasters through interpolation.It then uses the second csv (chemicals) and correlates their points with the rasters and calculates the values for each raster pixel at those points.
