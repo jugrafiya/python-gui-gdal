@@ -122,8 +122,10 @@ def get_pixel_value(x, y, geotransform, raster_data):
 
     pixel_x = int((x - origin_x) / pixel_width)
     pixel_y = int((y - origin_y) / pixel_height)
-
-    return raster_data[pixel_y, pixel_x]
+    try:
+        return raster_data[pixel_y, pixel_x]
+    except IndexError:
+        return 'NA'
 
 def save_file():
     #Open file dialog to ask for folder
