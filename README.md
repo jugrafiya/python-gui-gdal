@@ -28,6 +28,10 @@ pip install pandas numpy gdal
 python main.py
 ```
 
+4. Use the "Upload Sensors data CSV" and "Upload Chemical CSV" buttons to upload the respective CSV files.
+5. Enter the parameters for inverse distance weighting.
+6. Click "Save CSV" to generate the shapefiles and rasters and to save the results.
+
 ### GUI
 
 - **Upload Sensors data CSV**: Allows the user to upload a CSV file containing sensor data.
